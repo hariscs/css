@@ -1,0 +1,81 @@
+body {
+  color: #555;
+  background: #fff;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+#main-header {
+  background: #fc5185;
+  color: #fff;
+}
+#navbar {
+  background: #dee1ec;
+  color: #fff;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+#navbar a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  padding-right: 20px;
+}
+#navbar li {
+  display: inline;
+}
+#showcase {
+  background: url(/valley.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h1 {
+  color: black;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  padding: 10px;
+  background: #575151;
+  color: #f5eded;
+  box-sizing: border-box;
+}
+#main-footer {
+  background: #1e6262;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
+}
